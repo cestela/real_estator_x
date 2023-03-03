@@ -7,7 +7,9 @@ import {
   CssBaseline,
   GlobalStyles,
   ReadyPage,
+  LightTheme,
   ErrorComponent,
+  ThemeProvider,
 } from "@pankod/refine-mui";
 
 import {
@@ -21,7 +23,6 @@ import {
 import dataProvider from "@pankod/refine-simple-rest";
 import routerProvider from "@pankod/refine-react-router-v6";
 import axios, { AxiosRequestConfig } from "axios";
-import { ColorModeContextProvider } from "contexts";
 import { Title, Sider, Layout, Header } from "components/layout";
 import {
   Login,
@@ -125,7 +126,7 @@ function App() {
   };
 
   return (
-    <ColorModeContextProvider>
+    <ThemeProvider theme={LightTheme}>
       <CssBaseline />
       <GlobalStyles styles={{ html: { WebkitFontSmoothing: "auto" } }} />
       <RefineSnackbarProvider>
@@ -178,7 +179,7 @@ function App() {
           DashboardPage={Home}
         />
       </RefineSnackbarProvider>
-    </ColorModeContextProvider>
+    </ThemeProvider>
   );
 }
 
