@@ -1,7 +1,6 @@
-import { useGetIdentity, useList, useOne } from "@pankod/refine-core";
+import { useGetIdentity, useOne } from "@pankod/refine-core";
 import React from "react";
 
-import { Typography } from "@pankod/refine-mui";
 
 import { Profile } from "components";
 

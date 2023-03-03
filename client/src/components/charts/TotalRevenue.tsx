@@ -1,7 +1,6 @@
 import React from "react";
 
 import { Box, Typography, Stack } from "@pankod/refine-mui";
-import { PieChartProps } from "interfaces/home";
 import ReactApexChart from "react-apexcharts";
 import { ArrowCircleUpRounded } from "@mui/icons-material";
 

@@ -8,7 +8,6 @@ import {
   PropertyReferrals,
   TotalRevenue,
   PropertyCard,
-  TopAgent,
 } from "../components";
 
 const Home = () => {
