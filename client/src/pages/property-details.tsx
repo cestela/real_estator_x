@@ -250,7 +250,7 @@ const PropertyDetails = () => {
               width="100%"
               height={306}
               style={{ borderRadius: 10, objectFit: "cover" }}
-              alt="random-picture"
+              alt="random-map"
             />
           </Stack>
 
